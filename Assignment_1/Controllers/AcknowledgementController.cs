@@ -16,6 +16,7 @@ namespace Assignment_1.Controllers
         /// POST /api/q5/secret with body: 5
         /// POST /api/q5/secret with body: -200
         /// </example>
+       
         [HttpPost("secret")]
         public string PostSecret([FromBody]int secret)
         {

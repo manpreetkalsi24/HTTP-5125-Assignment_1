@@ -13,6 +13,7 @@ namespace Assignment_1.Controllers
         /// <param name="days">Number of days</param>
         /// <returns>Adjusted date string</returns>
         /// <example>GET /api/q7/timemachine?days=1</example>
+        
         [HttpGet("timemachine")]
         public string GetTimeMachine([FromQuery] int days)
         {
